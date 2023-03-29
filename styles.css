@@ -4,6 +4,10 @@ body{
 }
 .background-paragraph{
     background-color: aqua;
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/26/14/11/chef-1417239_1280.png");
+    background-repeat: no-repeat;
+    background-size: 100% 200px;
+    background-position-y: 50px;
 }
 
 h1{
@@ -15,10 +19,23 @@ h1{
 }
 img{
     width: 100%;
+    margin-top: 10em;
     height: 20em;
 }
-.MenuIcon{
+.Menu{
     width: 20rem;
     height: 20rem;
+    display: block;
     margin: auto;
+}
+.veg{
+    font-size: 40px;
+    display: inline;
+    margin-left: 15%;
+    color:darkcyan;
+}
+.nonveg{
+    font-size: 40px;
+    margin-left: 50%;
+    color:darkcyan;
 }
